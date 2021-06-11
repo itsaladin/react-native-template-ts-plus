@@ -38,9 +38,13 @@
     "react-native-reanimated": "^2.1.0",
     "react-native-safe-area-context": "^3.2.0",
     "react-native-screens": "^3.2.0",
+<<<<<<< HEAD
     "react-native-tab-view": "^3.0.1",
+    "react-native-vector-icons": "^8.1.0"
+=======
     "react-native-vector-icons": "^8.1.0",
     "react-native-web": "^0.16.5"
+>>>>>>> feat(wip): add web support using react-native-web
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",

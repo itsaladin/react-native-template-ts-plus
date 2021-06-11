@@ -4,8 +4,11 @@ import {
   NativeStackNavigationProp,
   NativeStackScreenProps,
 } from 'react-native-screens/native-stack';
-import { createNativeStackNavigator } from '~/compat/native-stack';
+<<<<<<< HEAD
 import Drawer, { DrawerScreensParams } from '~/navigators/drawer';
+=======
+import { createNativeStackNavigator } from '~/compat/native-stack';
+>>>>>>> feat(wip): add web support using react-native-web
 import Loader from '~/screens/loader';
 
 export type RootStackScreensParams = {
