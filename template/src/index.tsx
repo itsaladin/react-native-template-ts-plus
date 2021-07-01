@@ -39,6 +39,12 @@ const linking: LinkingOptions = {
           text: (text) => encodeURIComponent(text),
         },
       },
+      Drawer: {
+        path: 'drawer',
+        screens: {
+          Welcome: 'welcome',
+        },
+      },
     },
   },
 };
