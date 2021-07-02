@@ -1,3 +1,5 @@
+export const defaultVersion = '1.1.4';
+
 const getLatestVersion = async () => {
   try {
     const res = await fetch(
@@ -7,7 +9,7 @@ const getLatestVersion = async () => {
     return version;
   } catch (error) {
     console.log(error);
-    return '1.0.0';
+    return defaultVersion;
   }
 };
 

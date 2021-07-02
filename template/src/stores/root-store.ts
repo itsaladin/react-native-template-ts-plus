@@ -1,5 +1,5 @@
 import { flow, types } from 'mobx-state-tree';
-import getLatestVersion from '~/services/version';
+import getLatestVersion, { defaultVersion } from '~/services/version';
 
 /**
  * Example of a Appwide Global Store
@@ -7,8 +7,8 @@ import getLatestVersion from '~/services/version';
 
 const RootStore = types
   .model('RootStore', {
-    version: '1.1.4',
-    latestVersion: '1.1.4',
+    version: defaultVersion,
+    latestVersion: defaultVersion,
     userColorScheme: types.maybeNull(types.union(types.literal('light'), types.literal('dark'))),
     hydrated: false,
   })

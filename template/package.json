@@ -13,7 +13,8 @@
     "regenerate-bootsplash": "react-native generate-bootsplash src/assets/bootsplash_logo_original.png --background-color=ffffff --logo-width=200 --assets-path=src/assets --webroot-path=web",
     "postversion": "react-native-version",
     "web": "webpack serve --hot",
-    "web:build": "webpack --mode=\"production\""
+    "web:build": "webpack --mode=\"production\"",
+    "web:serve": "serve"
   },
   "dependencies": {
     "@react-native-async-storage/async-storage": "^1.15.4",
@@ -30,7 +31,7 @@
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "react-native": "0.64.2",
-    "react-native-bootsplash": "git+https://github.com/kuasha420/react-native-bootsplash.git#testing",
+    "react-native-bootsplash": "git+https://github.com/kuasha420/react-native-bootsplash.git",
     "react-native-gesture-handler": "^1.10.3",
     "react-native-immersive-bars": "1.0.2",
     "react-native-keyboard-aware-scroll-view": "^0.9.4",
@@ -56,14 +57,16 @@
     "babel-plugin-module-resolver": "^4.1.0",
     "babel-plugin-react-native-web": "^0.16.5",
     "babel-plugin-transform-remove-console": "^6.9.4",
+    "copy-webpack-plugin": "^9.0.1",
     "eslint": "^7.14.0",
+    "html-webpack-plugin": "^5.3.2",
     "jest": "^26.6.3",
     "metro-react-native-babel-preset": "^0.64.0",
     "process": "^0.11.10",
     "react-native-version": "^4.0.0",
     "react-test-renderer": "17.0.1",
+    "serve": "^12.0.0",
     "typescript": "^3.8.3",
-    "url-loader": "^4.1.1",
     "webpack": "^5.38.1",
     "webpack-cli": "^4.7.2",
     "webpack-dev-server": "^3.11.2"
