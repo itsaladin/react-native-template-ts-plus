@@ -6837,10 +6837,10 @@ ms@^2.1.1:
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.3.tgz#574c8138ce1d2b5861f0b44579dbadd60c6615b2"
   integrity sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==
 
-mst-persistent-store@^1.2.1:
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/mst-persistent-store/-/mst-persistent-store-1.2.1.tgz#63aaa1d4e2d30247022b77ccf16056c5324ee93d"
-  integrity sha512-BZskorC06ThiuNjULL/8XtE3o4wPjfSbP89e3CeGE588QGgrG2Aa/xm+yb3xYM2hV79BypQE9++MXfGLHUR20A==
+mst-persistent-store@^1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/mst-persistent-store/-/mst-persistent-store-1.2.2.tgz#c136affff8a3742d9f55276abec606acb5ac4c10"
+  integrity sha512-stDInNVYicqGfqB/cMkB2hvDzhr3YyCA6gHw1cNA5EPEquc3Yu96s2SGvmI2KAQ3+aYdDNaRmR6cq6oa0fcwfA==
   dependencies:
     mobx-devtools-mst "0.9.30"
     type-fest "1.0.2"

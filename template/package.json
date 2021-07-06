@@ -27,7 +27,7 @@
     "mobx": "^6.3.1",
     "mobx-react-lite": "^3.2.0",
     "mobx-state-tree": "^5.0.1",
-    "mst-persistent-store": "^1.2.1",
+    "mst-persistent-store": "^1.2.2",
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "react-native": "0.64.2",
